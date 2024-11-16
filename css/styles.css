@@ -1,1 +1,44 @@
+@font-face {
+    font-family: 'Fuente Pokemon';
+    src: url(../font/PokemonHollowNormal-pyPZ.ttf);
+}
+h1{
+    font-family: 'Fuente Pokemon';
+    font-size: 80px;
+    margin:0px;
+    color:#3263AA;
+   
+}
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFCC01
+    ;
+}
+
+.info-container{
+    border: #3263AA 8px solid; 
+    background: radial-gradient(circle at 20% 30%, #ffffcc 0%, transparent 50%), 
+            radial-gradient(circle at 80% 20%, #ccff99 0%, transparent 50%), 
+            radial-gradient(circle at 50% 70%, #99ccff 0%, transparent 50%), 
+            radial-gradient(circle at 30% 80%, #ffffff 0%, transparent 50%);
+    border-radius: 25px;
+   
+ 
+}
+h2{
+    
+    font-weight: bold;
+    text-transform:uppercase;
+    font-size:30px;
+}
+#pokemon{
+
+width: 320px;
+margin:50px 0px;
+border: black 2px solid;
+ background: linear-gradient(to bottom, #ffffff, #f8f8f8, #f0f0f0, #e8e8e8, #e0e0e0);
+}
