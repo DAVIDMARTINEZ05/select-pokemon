@@ -2,43 +2,65 @@
     font-family: 'Fuente Pokemon';
     src: url(../font/PokemonHollowNormal-pyPZ.ttf);
 }
-h1{
-    font-family: 'Fuente Pokemon';
-    font-size: 80px;
-    margin:0px;
-    color:#3263AA;
-   
-}
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #FFCC01
-    ;
+    background-color: #FFCC01;
+    /* background: radial-gradient(circle at 20% 20%, #FFEB3B, #FFEB3B 15%, transparent 15%),
+              radial-gradient(circle at 50% 50%, #F4D03F, #F4D03F 20%, transparent 20%),
+              radial-gradient(circle at 80% 80%, #FFCC00, #FFCC00 25%, transparent 25%),
+              radial-gradient(circle at 10% 80%, #FFB300, #FFB300 10%, transparent 10%); */
+    padding-bottom: 20px;
 }
 
-.info-container{
+h1 {
+    font-family: 'Fuente Pokemon';
+    font-size: 80px;
+    margin:0px;
+    color:#3263AA;
+}
+
+.info-container {
     border: #3263AA 8px solid; 
     background: radial-gradient(circle at 20% 30%, #ffffcc 0%, transparent 50%), 
             radial-gradient(circle at 80% 20%, #ccff99 0%, transparent 50%), 
             radial-gradient(circle at 50% 70%, #99ccff 0%, transparent 50%), 
             radial-gradient(circle at 30% 80%, #ffffff 0%, transparent 50%);
     border-radius: 25px;
-   
- 
 }
-h2{
-    
+
+h2 {
     font-weight: bold;
     text-transform:uppercase;
     font-size:30px;
 }
-#pokemon{
 
-width: 320px;
-margin:50px 0px;
-border: black 2px solid;
- background: linear-gradient(to bottom, #ffffff, #f8f8f8, #f0f0f0, #e8e8e8, #e0e0e0);
+#pokemon {
+    width: 320px;
+    margin:50px 0px;
+    border: black 2px solid;
+    background: linear-gradient(to bottom, #ffffff, #f8f8f8, #f0f0f0, #e8e8e8, #e0e0e0);
+}
+
+.pokemon-form {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+#pokemon-select, #get-pokemon {
+    background-color: #3263AA;
+    color: #FFCC01;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+#pokemon-select:hover, #get-pokemon:hover {
+    transform: scale(1.05);
 }
